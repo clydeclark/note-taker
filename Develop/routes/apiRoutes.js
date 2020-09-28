@@ -1,5 +1,5 @@
 // Dependencies
-const notesData = require("../db/db.json");
+let notesData = require("../db/db.json");
 const {
     v4: uuidv4
 } = require("uuid");
